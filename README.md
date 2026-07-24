@@ -52,7 +52,7 @@ Agent 会自动：
 | 开源项目 | h1+h2+paragraph+code-block+image+signature+interaction | 教程风，步骤清晰 |
 | 他山石 | h1+h2+paragraph+quote-block+signature+interaction | 观点输出，引用多 |
 | 江湖夜话 | h1+h2+paragraph+signature+interaction | 走心随笔，留白多 |
-| 宗门实录 | h1+h2+paragraph+signature+interaction | 故事叙述，节奏感 |
+| 团队故事 | h1+h2+paragraph+signature+interaction | 故事叙述，节奏感 |
 
 ## 目录结构
 

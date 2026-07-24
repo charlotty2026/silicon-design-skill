@@ -28,7 +28,7 @@
   │
   ├─ Step 0: 确认参数
   │   • 主题：默认「硅基极简」，可选其他已安装主题
-  │   • 栏目：专项攻略/避坑指南/开源项目/他山石/江湖夜话/宗门实录
+  │   • 栏目：专项攻略/避坑指南/开源项目/他山石/江湖夜话/团队故事
   │   • 作者：硅基聊斋主笔/硅基聊斋编辑部/硅基聊斋技术组/硅基聊斋观察员/硅基聊斋读者之友
   │   • 标签：#硅基聊斋 必须第一个，总标签 3-6 个
   │
@@ -111,7 +111,7 @@ H5 → 1.1、1.2、1.3
 - 如果用户指定了署名角色，用该角色的签名池
 - 如果未指定，根据文章类型推断：
   - 专项攻略/开源项目 → 硅基聊斋主笔
-  - 宗门实录 → 硅基聊斋编辑部
+  - 团队故事 → 硅基聊斋编辑部
   - 他山石/江湖夜话 → 硅基聊斋观察员或硅基聊斋主笔
   - 避坑指南 → 硅基聊斋主笔
 
@@ -131,7 +131,7 @@ H5 → 1.1、1.2、1.3
 | 开源项目 | h1+h2+paragraph+code-block+image+signature+interaction | step-label+list-ordered | 教程风，步骤清晰 |
 | 他山石 | h1+h2+paragraph+quote-block+signature+interaction | image+highlight | 观点输出，引用多 |
 | 江湖夜话 | h1+h2+paragraph+signature+interaction | quote-block+divider | 走心随笔，留白多 |
-| 宗门实录 | h1+h2+paragraph+signature+interaction | image+quote-block | 故事叙述，节奏感 |
+| 团队故事 | h1+h2+paragraph+signature+interaction | image+quote-block | 故事叙述，节奏感 |
 
 ## 主题系统
 
