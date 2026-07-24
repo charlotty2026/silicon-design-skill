@@ -22,7 +22,7 @@
 npx skills install charlotty2026/silicon-design-skill -g
 
 # 或从 Gitee 安装（国内推荐）
-npx skills install https://gitee.com/charlotty2026/silicon-design-skill -g
+npx skills install https://gitee.com/fenglinhuoshanmen/silicon-design-skill -g
 ```
 
 安装后，Agent 在处理公众号排版任务时会自动触发本 Skill。
@@ -70,10 +70,7 @@ silicon-design-skill/
 │   ├── validate_gzh_html.py         # 产物合规校验
 │   └── component_lint.py            # 组件库源头检查
 ├── assets/
-│   ├── sample-article.md            # 演示输入
-│   └── theme-previews/              # 主题预览 HTML
-├── docs/
-│   └── gallery/                     # 主题浏览器预览
+│   └── sample-article.md            # 演示输入
 ├── README.md
 ├── CONTRIBUTING.md
 └── LICENSE                          # AGPL-3.0

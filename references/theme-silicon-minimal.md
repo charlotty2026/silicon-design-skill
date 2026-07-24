@@ -212,7 +212,7 @@
 ```html
 <blockquote style="margin:0 0 20px 0;padding:12px 16px;background:#f7f7f7;border-left:3px solid #4e6b99;font-size:14px;color:#666;line-height:1.8;">
 <span leaf="">栏目：专项攻略</span><br>
-<span leaf="">作者：佛跳墙</span><br>
+<span leaf="">作者：硅基聊斋主笔</span><br>
 <span leaf="">日期：2026-07-24</span>
 </blockquote>
 ```
@@ -236,17 +236,17 @@
 <p style="margin:8px 0 0 0;padding:0;line-height:1.8;font-size:14px;color:#999999;text-align:center;">
 <span leaf="">📖 栏目：专项攻略</span><br>
 <span leaf="">📝 创作时间：2026-07-24</span><br>
-<span leaf="">🖊️ 本期作者：佛跳墙</span><br>
+<span leaf="">🖊️ 本期作者：硅基聊斋主笔</span><br>
 <span leaf="">🏷️ 标签：硅基聊斋 | AI | 提示词</span>
 </p>
 <p style="margin:12px 0 0 0;padding:0;line-height:1.8;font-size:14px;color:#999999;text-align:center;font-style:italic;">
-<span leaf="">—— 佛跳墙</span><br>
+<span leaf="">—— 硅基聊斋主笔</span><br>
 <span leaf="">代码不会骗人，跑通才算数。</span>
 </p>
 ```
 
 说明：
-- 分割线 + "硅基聊斋"品牌行 + 栏目/日期/作者/标签 + Agent 签名
+- 分割线 + "硅基聊斋"品牌行 + 栏目/日期/作者/标签 + 署名签名
 - 14px 灰色 `#999` 居中
 - 落款区的 emoji（📖📝🖊️🏷️）是唯一允许的 emoji
 - 签名从签名池随机匹配 1 条
@@ -383,22 +383,22 @@
 
 ---
 
-## Agent 签名池
+## 签名池
 
-| Agent | 签名池 |
-|-------|--------|
-| 佛跳墙 | `代码不会骗人，跑通才算数。` / `本篇由佛跳墙技术出品。` / `先跑通再优化，别反着来。` |
-| 西湖醋鱼 | `宗主今天也在思考。` / `以上内容已经宗主审阅。` / `宗主说：写得还行。` |
-| 伏特加 | `伏特加出品，度数够高。` / `干活不拖，收工不磨。` / `先把活干了再说。` |
-| 锅包又 | `保险柜护法提醒您：签字前再看一遍。` / `合规审查通过，请放心食用。` |
-| 冰拿铁 | `冰镇出品，常温饮用。` / `这篇是凉的，慢慢看。` |
+| 署名角色 | 签名池 |
+|---------|--------|
+| 硅基聊斋主笔 | `代码不会骗人，跑通才算数。` / `先跑通再优化，别反着来。` / `把复杂的事说简单，不把简单的事说复杂。` |
+| 硅基聊斋编辑部 | `本篇经编辑部审校。` / `写完检查三遍，比写好一遍强。` / `细节决定成败，标点也不例外。` |
+| 硅基聊斋技术组 | `工具干的活不交给手。` / `能自动化的不手动。` / `脚本不骗人，跑通才算数。` |
+| 硅基聊斋观察员 | `以上内容仅供参考。` / `说点不一样的。` / `换个角度看问题。` |
+| 硅基聊斋读者之友 | `看完记得动手试试。` / `有想法欢迎留言。` / `慢慢看，不急。` |
 
 签名匹配规则：
-- 用户指定作者 → 用该作者签名池
+- 用户指定署名角色 → 用该角色签名池
 - 未指定 → 按文章类型推断：
-  - 专项攻略/开源项目/避坑指南 → 佛跳墙
-  - 宗门实录 → 伏特加
-  - 他山石/江湖夜话 → 佛跳墙或西湖醋鱼
+  - 专项攻略/开源项目/避坑指南 → 硅基聊斋主笔
+  - 宗门实录 → 硅基聊斋编辑部
+  - 他山石/江湖夜话 → 硅基聊斋观察员或硅基聊斋主笔
 
 ---
 
@@ -433,7 +433,7 @@
 # AI 总自作主张？给它画三条红线
 
 > 栏目：专项攻略
-> 作者：佛跳墙
+> 作者：硅基聊斋主笔
 > 日期：2026-07-24
 
 ## 一、红线一：不碰报价
@@ -464,7 +464,7 @@ AI 在报价区绝对不能动手。报价数字是客户的底线，改一个�
 
 <blockquote style="margin:0 0 20px 0;padding:12px 16px;background:#f7f7f7;border-left:3px solid #4e6b99;font-size:14px;color:#666;line-height:1.8;">
 <span leaf="">栏目：专项攻略</span><br>
-<span leaf="">作者：佛跳墙</span><br>
+<span leaf="">作者：硅基聊斋主笔</span><br>
 <span leaf="">日期：2026-07-24</span>
 </blockquote>
 
@@ -499,11 +499,11 @@ AI 在报价区绝对不能动手。报价数字是客户的底线，改一个�
 <p style="margin:8px 0 0 0;padding:0;line-height:1.8;font-size:14px;color:#999999;text-align:center;">
 <span leaf="">📖 栏目：专项攻略</span><br>
 <span leaf="">📝 创作时间：2026-07-24</span><br>
-<span leaf="">🖊️ 本期作者：佛跳墙</span><br>
+<span leaf="">🖊️ 本期作者：硅基聊斋主笔</span><br>
 <span leaf="">🏷️ 标签：硅基聊斋 | AI | 提示词</span>
 </p>
 <p style="margin:12px 0 0 0;padding:0;line-height:1.8;font-size:14px;color:#999999;text-align:center;font-style:italic;">
-<span leaf="">—— 佛跳墙</span><br>
+<span leaf="">—— 硅基聊斋主笔</span><br>
 <span leaf="">代码不会骗人，跑通才算数。</span>
 </p>
 
