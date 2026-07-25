@@ -101,6 +101,10 @@ def scan_file(filepath: Path) -> tuple:
     return all_errors, all_warnings
 
 
+# 文档文件不是组件，跳过（这些文件里的HTML标签是规则说明，不是实际组件代码）
+SKIP_FILES = {'SKILL.md', 'README.md', 'CONTRIBUTING.md', 'ISSUES.md', 'LICENSE'}
+
+
 def main():
     if len(sys.argv) < 2:
         print('用法: python component_lint.py <文件或目录>')
@@ -114,7 +118,12 @@ def main():
     files = []
     if target.is_dir():
         files = sorted(target.glob('**/*.md'))
+        # 只扫描组件文件，跳过根目录的说明文档
+        files = [f for f in files if f.name not in SKIP_FILES]
     else:
+        if target.name in SKIP_FILES:
+            print(f'✅ {target.name} - 文档文件，跳过组件检查')
+            sys.exit(0)
         files = [target]
 
     if not files:
